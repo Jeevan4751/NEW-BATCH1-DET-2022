@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NEW_BATCH1_DET_2022
 {
-    internal class TestCompany
+    public class TestCompany
 {
         public static void Main()
         {

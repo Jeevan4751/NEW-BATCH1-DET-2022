@@ -1,23 +1,20 @@
+﻿namespace MyClassLib;
 
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace NEW_BATCH1_DET_2022
-{
+
     public class EMP
-{
+    {
         int id;
         string name;
         string dept;
         double sal;
-        DateOnly doj;
+        
 
+
+     public DateTime doj { get; set; }
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
-        public EMP(int eid, string ename, DateOnly doj)
+        public EMP(int eid, string ename, DateTime doj)
         {
             id = eid; name = ename; this.doj = doj;
         }
@@ -28,4 +25,3 @@ namespace NEW_BATCH1_DET_2022
             return DateTime.Now.Year - doj.Year;
         }
     }
-}
