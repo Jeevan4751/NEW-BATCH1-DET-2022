@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,7 +6,7 @@
     <RootNamespace>NEW_BATCH1_DET_2022</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>NEW_BATCH1_DET_2022.CSFeatures</StartupObject>
+    <StartupObject>NEW_BATCH1_DET_2022.LINQ_Thenby</StartupObject>
   </PropertyGroup>
 
 </Project>
