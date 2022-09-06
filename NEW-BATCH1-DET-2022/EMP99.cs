@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NEW_BATCH1_DET_2022
 {
-    public class EMP
+    public class EMP99
 {
         int id;
         string name;
@@ -17,7 +17,7 @@ namespace NEW_BATCH1_DET_2022
 
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
-        public EMP(int eid, string ename, DateOnly doj)
+        public EMP99(int eid, string ename, DateOnly doj)
         {
             id = eid; name = ename; this.doj = doj;
         }

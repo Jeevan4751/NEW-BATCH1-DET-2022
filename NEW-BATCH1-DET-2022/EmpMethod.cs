@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NEW_BATCH1_DET_2022
 {
-    public class Emp
+    public class Emp1
     {
         //data declared inside class are known as "fields"
         int id;
@@ -18,15 +18,15 @@ namespace NEW_BATCH1_DET_2022
 
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
-        public Emp(int id, string name, DateTime doj)
+        public Emp1(int id, string name, DateTime doj)
         {
             this.id = id; this.name = name; this.doj = doj;
         }
-        public Emp()
+        public Emp1()
         {
             id = -1; name = "no name";
         }
-        public Emp(int id, string name)
+        public Emp1(int id, string name)
         {
             this.id = id; this.name = name;
         }

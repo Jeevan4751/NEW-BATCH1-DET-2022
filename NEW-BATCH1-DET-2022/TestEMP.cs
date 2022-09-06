@@ -10,7 +10,7 @@ namespace NEW_BATCH1_DET_2022
 {
         public static void Main()
         {
-            EMP e = new EMP(22825, "Manasa", new DateOnly(2021, 8, 1));
+            EMP99 e = new EMP99(22825, "Manasa", new DateOnly(2021, 8, 1));
             Console.WriteLine($"Years of experience{e.GetYearsofExp()}");
         }
     }

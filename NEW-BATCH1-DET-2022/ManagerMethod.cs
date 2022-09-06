@@ -9,7 +9,7 @@ namespace NEW_BATCH1_DET_2022
     /// <summary>
     /// derived class from emp
     /// </summary>
-    public class Manager:Emp
+    public class Manager:Emp1
     {
         public string Project { get; set; }
         public int Teamsize { get; set; }
